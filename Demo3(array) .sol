@@ -33,4 +33,11 @@ contract Demo {
         items3.push(6);
         items3.push(3);
     }
+
+    function demo5() public pure returns (uint256[] memory) {
+        uint256[] memory items5 = new uint256[](10);
+        items5[0]=256;
+        items5[5]=121;
+        return items5; 
+    }
 }   
